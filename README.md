@@ -19,3 +19,5 @@ You simply need to run the *youtube_local_downloader.py* file from your IDE or b
 ```cd "<where you downloaded the repository>/youtube-local-downloader"```
 ### Then run the script:
 ```python youtube_local_downaloder.py```
+
+ALL FONTS USED IN THIS PROJECT BELONG TO THEIR RESPECTIVE OWNERS AND ARE FREE FOR PERSONAL USE ONLY.
