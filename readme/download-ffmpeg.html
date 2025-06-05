@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <link rel="icon" href="resources/page_favicon.ico" type="image/x-icon">
+    <title>Installer FFMPEG - YouTube Local Downloader</title>
+</head>
+
+<body>
+    <!-- <div class="mouse-dot"></div> -->
+
+    <div class="blur-bg" onclick="togglePopup()"></div>
+
+    <nav class="categories">
+        <a href="index.html"><img id="header-categories-icon" src="resources/tool_icon_header.png"/></a>
+        <li><a href="index.html">Accueil</a></li>
+        <li onclick="togglePopup()">Besoin d'aide ?</li>
+    </nav>
+
+    <section id="header">
+        <section id="credits-container">
+            <section id="header-credit">
+                <p id="credit-text">Conçu par Screan</p>
+                <img id="screan-pfp-icon" src="resources/screan_pfp_header_icon.png">
+            </section>
+            <div id="tool-version">Chargement...</div>
+        </section>
+
+        <a href="index.html"><img id="header-tool-icon" src="resources/tool_icon_header.png"></a>
+        <div class="additional-page-header">
+            <h1>Installer FFMPEG</br>pour YouTube Local Downloader</h1>
+        </div>
+
+
+
+    </section>
+
+    <section id="download-ffmpeg-page-content-section">
+        <h2 class="download-ffmpeg-page title-format dark-box border-container">Pourquoi dois-je installer le module FFMPEG pour utiliser YouTube Local Downloader ?</h2>
+
+        <h2 class="download-ffmpeg-page text-format no-border-container">"FFMPEG" est un module externe à YouTube Local Downloader. Il permet entre autres de traiter des données audio à partir de fichiers locaux, et est utilisé dans certains logiciels pour permettre le traitement ou bien la lecture de fichiers audio.</br><strong>YouTube Local Downloader exploite ce module pour permettre la fonction de conversion des vidéos au format MP3.</strong></br>Si vous essayez de télécharger une vidéo au format audio alors que votre appareil ne dispose pas du module, vous obtiendrez probablement une erreur comme celle-ci :</br><code>[WinError 2] Le fichier spécifié est introuvable</code></h2>
+        <img class="download-ffmpeg-tutorial-medias" id="download-ffmpeg-error-when-downloading" src="resources/download-ffmpeg-error-when-downloading.png">
+
+        <h2 class="download-ffmpeg-page text-format no-border-container">Le cas échéant, vous allez devoir installer le module. Pas de panique, suivez simplement ce guide et tout se passera bien.</br><i>N.B. : L'installation du module nécessite les droits d'administrateur.</i></h2>
+        
+        <h2 class="download-ffmpeg-page title-format dark-box border-container">Vidéo complète du guide d'installation</h2>
+
+        <video width="896" height="504" controls class="download-ffmpeg-tutorial-medias">
+            <source src="resources/download-ffmpeg-complete-tutorial.mp4" type=video/mp4>
+        </video>
+
+        <h2 class="download-ffmpeg-page text-format border-container">Vous n'avez pas de temps à perdre ? Voici la vidéo de tutoriel complète pour installer FFMPEG !</br>Si la vidéo va trop vite et que vous souhaitez vous assurer de ne pas faire d'erreurs, continuez avec un guide plus détaillé sur l'installation de FFMPEG, étape par étape.</h2>
+
+        <h2 class="download-ffmpeg-page title-format dark-box no-border-container">Étape 1 : Télécharger FFMPEG</h2>
+
+        <h2 class="download-ffmpeg-page text-format no-border-container">La première étape consiste à télécharger le dossier contenant le module à partir du site officiel de FFMPEG (puis de Git-Hub).</br>Pour vous simplifier la tâche, <a href="https://github.com/GyanD/codexffmpeg/releases/tag/2024-01-28-git-e0da916b8f" target="_blank"><u>cliquez ici pour directement vous rendre sur la page Git-Hub de FFMPEG</u></a>.</br>Notez que la version que vous installerez en cliquant sur le lien ci-dessus est celle du 28 janvier 2024. Si vous souhaitez installer une version plus récente de FFMPEG, suivez les étapes suivantes :</br>
+        • Rendez-vous sur le <u><a href="https://ffmpeg.org/download.html" target="_blank">site officiel de FFMPEG</a></u>.</br>
+        • Ensuite, placez la souris sur l'icône de Windows au niveau de la section de téléchargements <strong>"Get packages & executable files"</strong>, puis cliquez sur le lien <strong>"Windows builds from gyan.dev"</strong>.</br>
+        • Une fois sur le site gyan.dev, baissez la page jusqu'à voir les liens de téléchargement (section <strong>"git master builds"</strong>). Cliquez sur le lien associé à <strong>"mirror @ github".</strong></h2>
+        <img class="download-ffmpeg-tutorial-medias" id="download-ffmpeg-go-to-github" src="resources/download-ffmpeg-go-to-github.png">
+
+        <h2 class="download-ffmpeg-page text-format no-border-container">Une fois sur la page Git-Hub, téléchargez le package <strong>au format .zip</strong> et dont le titre contient <strong>"essentials_build"</strong>. À titre d'indication, celui-ci devrait avoir une taille d'approximativement 80 Mo.</br>Une fois téléchargé, rendez-vous dans le dossier contenant le package.</h2>
+        <img class="download-ffmpeg-tutorial-medias" id="download-ffmpeg-go-to-github-2" src="resources/download-ffmpeg-go-to-github-2.png">
+
+        <h2 class="download-ffmpeg-page title-format dark-box no-border-container">Étape 2 : Décompresser le dossier</h2>
+        <h2 class="download-ffmpeg-page text-format dark-box no-border-container"><i>Pour réaliser cette étape, vous devez posséder WinRAR sur votre ordinateur. Si ce n'est pas le cas, vous pouvez effectuer une installation classique en vous rendant sur le <a href="https://www.win-rar.com/start.html?&L=10" target="_blank">site officiel de WinRAR</a>, puis en cliquant sur "Télécharger WinRAR".</i></br>Si vous voulez aller plus vite, <a href="https://www.win-rar.com/fileadmin/winrar-versions/winrar/winrar-x64-624fr.exe" target="_blank">installez WinRAR directement en cliquant ici</a>.</h2>
+
+        <h2 class="download-ffmpeg-page text-format no-border-container">Après avoir téléchargé le package, rendez-vous dans le dossier dans lequel vous l'avez enregistré. Ouvrez-le avec WinRAR (cela devrait se faire par défaut, sinon vous pouvez faire : <strong>Clic droit → "Ouvrir avec WinRAR"</strong>).</br>• La page de WinRAR s'ouvrira. <strong>Sélectionnez le dossier "ffmpeg-..."</strong> et cliquez sur <strong>"Extraire vers"</strong> dans les options du haut.</br>• La page d'options pour l'extraction devrait s'ouvrir. Vous pouvez éventuellement modifier le chemin d'accès de destination, mais il est conseillé de le laisser comme par défaut. Cliquez ensuite sur <strong>"OK"</strong> en bas de la page.</h2>
+        
+        <img class="download-ffmpeg-tutorial-medias" id="download-ffmpeg-extract-from-winrar" src="resources/download-ffmpeg-extract-from-winrar.gif">
+
+
+        <h2 class="download-ffmpeg-page title-format dark-box no-border-container">Étape 3 : Déplacer le dossier vers le disque local</h2>
+        <h2 class="download-ffmpeg-page text-format no-border-container">Vous pouvez désormais fermer la page de WinRAR.</br>Rendez-vous dans le dossier vers lequel vous avez extrait les fichiers. Vous devriez trouver un dossier dont le nom ressemble à <strong>"ffmpeg-XXXX-XX-XX-git-...-essentials_build"</strong>. Faites : <strong>Clic droit → "Renommer"</strong> et renommez le dossier en tant que <strong>"ffmpeg"</strong>.</br></br>• Une fois cela fait, sélectionnez le dossier et <strong>glissez-le vers votre Disque local (C:)</strong>.</br>Enfin, accédez au dossier "ffmpeg" déplacé dans le disque local et laissez l'explorateur de fichiers ouvert.</h2>
+        <img class="download-ffmpeg-tutorial-medias" id="download-ffmpeg-put-folder-in-local-disk" src="resources/download-ffmpeg-put-folder-in-local-disk.gif">
+        
+
+        <h2 class="download-ffmpeg-page title-format dark-box no-border-container">Étape 4 : Ajouter le module FFMPEG aux variables d'environnement du système</h2>
+        <h2 class="download-ffmpeg-page text-format no-border-container">Appuyez sur la touche <strong>Windows</strong> pour <strong>ouvrir le menu de démarrage</strong>, puis saisissez dans la barre de recherche <strong>"variables d'environnement"</strong> (saisir <strong>"var"</strong> devrait également fonctionner).</br>Cliquez sur le résultat <strong>"Modifier les variables d'environnement système"</strong>.</h2>
+        <img class="download-ffmpeg-tutorial-medias" id="download-ffmpeg-open-environment-variables" src="resources/download-ffmpeg-open-environment-variables.png">
+
+        <h2 class="download-ffmpeg-page text-format no-border-container">La page montrée dans la première vignette de l'image ci-dessous devrait s'afficher. Cliquez sur le bouton <strong>"Variables d'environnement..."</strong>.</br>• Dans la page qui s'ouvre, la liste des variables utilisateurs s'affiche. <strong>Sélectionnez la variable "Path"</strong> puis <strong>cliquez sur modifier</strong> (veillez à bien cliquer sur le bouton situé en dessous des variables utilisateur et non des variables système).</br>• Enfin, une page répertoriant la liste des variables s'ouvre. Laissez-la ouverte et retournez dans l'explorateur de fichiers, au niveau du dossier <strong>"ffmpeg"</strong> où vous vous êtes rendu précédemment.</h2>
+        <img class="download-ffmpeg-tutorial-medias" id="download-ffmpeg-open-environment-variables-2" src="resources/download-ffmpeg-open-environment-variables-2.png">
+
+        <h2 class="download-ffmpeg-page text-format no-border-container">Une fois dans le dossier <strong>"ffmpeg"</strong>, ouvrez le dossier <strong>"bin"</strong>.</br>• Ensuite, <strong>cliquez sur le chemin d'accès</strong> au dessus de la fenêtre pour le sélectionner, puis <strong>copiez-le</strong> (Ctrl + C ou Clic droit → "Copier").</h2>
+        <img class="download-ffmpeg-tutorial-medias" id="download-ffmpeg-copy-folder-path" src="resources/download-ffmpeg-copy-folder-path.gif">
+        
+
+        <h2 class="download-ffmpeg-page text-format no-border-container">Vous y êtes presque ! Retournez dans la fenêtre répertoriant les variables d'environnement (la troisième page que vous avez ouverte) et cliquez sur <strong>"Nouveau"</strong>.</br>• Enfin, dans l'entrée de saisie de texte, <strong>collez le chemin d'accès au dossier</strong> précédemment copié (Ctrl + V ou Clic droit → "Coller").</h2>
+        <img class="download-ffmpeg-tutorial-medias" id="download-ffmpeg-paste-folder-path" src="resources/download-ffmpeg-paste-folder-path.png">
+
+        <h2 class="download-ffmpeg-page text-format no-border-container">Une fois que vous avez copié le chemin d'accès dans l'entrée de saisie de texte, confirmez les changements en cliquant sur <strong>"OK"</strong>, puis dans la fenêtre antérieure sur <strong>"OK"</strong> et enfin, dans la première fenêtre des variables d'environnement, sur <strong>"OK"</strong> également.</h2>
+
+        <h2 class="download-ffmpeg-page title-format dark-box no-border-container">L'installation est terminée !</h2>
+
+        <h2 class="download-ffmpeg-page text-format dark-box no-border-container"><strong>FFMPEG est désormais installé sur votre ordinateur.</strong></br>Vous pouvez maintenant profiter <strong>gratuitement et sans publicité ni interruption</strong> de la <strong>fonction de convertion au format MP3</strong> de vos vidéos avec <strong>YouTube Local Downloader</strong> !</h2>
+        <h2 class="download-ffmpeg-page text-format dark-box no-border-container"><i>Si vous rencontrez toujours des erreurs lors de la convertion au format audio de vos vidéos, il y a probablement eu un problème lors de l'installation de FFMPEG.<br>Pour vous assurer que FFMPEG est bien installé, suivez ces étapes :</i></br>• Accédez au menu Démarrer de Windows et saisissez dans la barre de recherche "Invite de commandes", puis ouvrez l'application.</br>• Dans la fenêtre qui s'ouvre, saisissez "ffmpeg" puis appuyez sur la touche Entrée.</h2>
+        <h2 class="download-ffmpeg-page text-format dark-box no-border-container"><i>Si l'invite de commande affiche des informations sur FFMPEG (comme sur l'image ci-dessous), cela signifie que FFMPEG est correctement installé sur votre ordinateur.</br>Dans le cas contraire, il y a eu un problème lors de l'installation. Si vous faites face à ce cas de figure, vous êtes invité à resuivre ce guide.</i></h2>
+        <img class="download-ffmpeg-tutorial-medias" id="download-ffmpeg-check-installation" src="resources/download-ffmpeg-check-installation.png">
+
+
+    <section class="discord-pop-up">
+        <div class="discord-pop-up-content">
+            <h2 class="pop-up-title">Ajoutez-moi sur Discord !</h2>
+            <div class="pop-up-objects">
+                <h3 class="pop-up-standard-text">Si vous avez besoin d'assistance, souhaitez me faire part d'une proposition ou simplement me passer le bonjour, vous pouvez m'ajouter sur Discord avec mon nom d'utilisateur : @screan_</br></br></h3>
+                <img id="discord-popup-profile" src="resources/discord_popup_screan_profile_img.png">
+                <h4 class="pop-up-small-text"><a href="https://discord.com/channels/@me" style="color: #E5E5E5" target="_blank">Accéder à Discord</a></br></br></h4>
+            </div>
+        </div>
+    </section>
+
+    <section class="discord-pop-up">
+        <div class="discord-pop-up-content">
+            <h2 class="pop-up-title">Comment installer FFmpeg ?</h2>
+            <div class="pop-up-objects">
+                <h3 class="pop-up-standard-text">Si vous avez besoin d'assistance, souhaitez me faire part d'une proposition ou simplement me passer le bonjour, vous pouvez m'ajouter sur Discord avec mon nom d'utilisateur : @screan_</br></br></h3>
+                <img id="discord-popup-profile" src="resources/discord_popup_screan_profile_img.png">
+                <h4 class="pop-up-small-text"><a href="https://discord.com/channels/@me" style="color: #E5E5E5" target="_blank">Accéder à Discord</a></br></br></h4>
+            </div>
+        </div>
+    </section>
+
+
+    <h4 class="pop-up-close-info">Cliquez en dehors de cette fenêtre pop-up pour la réduire.</h4>
+    
+    <script src="app.js"></script>
+</body>
+</html>

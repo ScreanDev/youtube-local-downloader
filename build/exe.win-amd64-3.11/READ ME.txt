@@ -1,0 +1,93 @@
+INFORMATIONS SUR L'OUTIL YOUTUBE LOCAL DOWNLOADER :
+===================================================
+
+Dernière révision du document réalisée le 1er septembre 2023.
+
+
+• Merci d'avoir choisi l'outil YouTube Local Downloader. J'espère que
+celui-ci saura vous aider à télécharger vos vidéos YouTube préférées.
+Je suis un créateur indépendant, et j'ai conçu cette application dans
+l'optique de permettre à chacun de sauvegarder localement n'importe
+quelle vidéo provenant de YouTube aux formats MP4 et MP3 sans avoir
+ni à payer le moindre sou ni à utiliser un navigateur Internet pour
+trouver un site de conversion fiable. Cet outil vous offre l'opportunité
+de télécharger en quelques clics une vidéo et son contenu audio à partir
+de son lien.
+
+
+• Le présent document a pour objectif de vous donner des informations
+complémentaires sur l'outil (le « service » ou le « programme ») et vous
+décrire vos droits vis-à-vis dudit service. En exploitant le service,
+vous affirmez tacitement consentir aux termes de cet accord. Si vous n'y
+consentez pas, vous êtes prié de ne pas le télécharger ni l'utiliser.
+
+
+-----------------------------------
+
+
+Informations sur l'outil et crédits :
+=====================================
+
+1.1 - Le service est régi en France métropolitaine.
+
+1.2 - Le service utilise des modules externes provenant de Git-Hub dont
+      TkInter, YouTube DL, PyTube, PyDub et PyGame, qui appartiennent à
+leurs propriétaires respectifs.
+
+1.3 - Le service utilise des polices d'écritures spécifiques, dont
+      "Nexa" et "A Big Deal", qui appartiennent à leurs propriétaires
+respectifs.
+
+1.4 - Le service vous est fourni gratuitement et ne génère aucun bénéfice.
+
+
+-----------------------------------
+
+
+Conditions d'utilisation de l'outil :
+=====================================
+
+2.1 - L'acceptation des présentes conditions d'utilisation de l'outil
+      constitue un accord entre son propriétaire et vous.
+
+2.2 - En téléchargeant le programme, vous êtes libre de lui apporter des
+      changements, de modifier son code source pour un usage personnel
+      uniquement.
+      En tant que propriétaire du service, je déclare n'être en
+      aucun cas affilié, associé ou engagé dans toute utilisation que
+      vous faites du service.
+
+2.3 - Vous n'avez pas l'autorisation de partager le service en
+      prétendant en être le propriétaire.
+      Dans cette optique, vous n'êtes autorisé à le vendre, le copier,
+      l'adapter, le traduire, en dériver le code-source ou bien en
+      faire la promotion. Il vous est également interdit de faire de
+      même avec les images, les icônes, les textes, les programmes ou
+      tout autre contenu du service appartenant à son
+      propriétaire.
+
+
+-----------------------------------
+
+
+Informations additionnelles :
+=============================
+
+• L'utilisation du service nécessite une connexion à Internet.
+
+• Le service est au format exécutable (.exe) et peut demander des droits
+d'élévation sur votre appareil : l'exécution du programme pourrait être
+empêchée par un logiciel anti-malware en raison de sa provenance
+inconnue ; étant conçu par un créateur indépendant, le programme n'est
+pas reconnu par les systèmes d'exploitation - il ne constitue toutefois
+aucune menace pour votre appareil.
+
+• Pour télécharger une vidéo YouTube au format MP3, vous devez posséder
+le module FFmpeg dans les variables d'environnement de votre système.
+
+• Si vous rencontrez un problème, avez besoin d'assistance ou souhaitez
+me poser une question sur le service, vous pouvez m'envoyer un message
+sur Discord - mon nom d'utilisateur est : "screan_".
+
+• Si vous avez des suggestions à proposer pour améliorer l'outil,
+n'hésitez pas à m'en faire part.

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <link rel="icon" href="resources/page_favicon.ico" type="image/x-icon">
+    <title>Informations sur YouTube Local Downloader</title>
+</head>
+
+<body>
+    <!-- <div class="mouse-dot"></div> -->
+
+    <div class="blur-bg" onclick="togglePopup()"></div>
+
+    <nav class="categories">
+        <a href="index.html"><img id="header-categories-icon" src="resources/tool_icon_header.png"/></a>
+        <li><a href="download-ffmpeg.html">Installer FFMPEG</a></li>
+        <li onclick="togglePopup()">Besoin d'aide ?</li>
+    </nav>
+
+    <section id="header">
+        <section id="credits-container">
+            <section id="header-credit">
+                <p id="credit-text">Conçu par Screan</p>
+                <img id="screan-pfp-icon" src="resources/screan_pfp_header_icon.png">
+            </section>
+            <div id="tool-version">Chargement...</div>
+        </section>
+
+        <a href="index.html"><img id="header-tool-icon" src="resources/tool_icon_header.png"></a>
+        <div id="title-header">
+            <h1>Informations sur le service</br>YouTube Local Downloader</h1>
+        </div>
+
+        <img id="tool_window_showcase_header_background" src="resources/tool_window_showcase_page_header.png">
+    </section>
+
+    <section id="content-section">
+        <p class="italic-text-format border-container" id="doc-update">Dernière révision du document réalisée le 27 janvier 2024.</p>
+
+        <h2 class="text-format border-container">Merci d'avoir choisi l'outil YouTube Local Downloader. J'espère que celui-ci saura vous aider à télécharger vos vidéos YouTube préférées. Je suis un créateur indépendant, et j'ai conçu cette application dans l'optique de permettre à chacun de sauvegarder localement n'importe quelle vidéo provenant de YouTube aux formats MP4 et MP3 sans avoir ni à payer le moindre sou ni à utiliser un navigateur Internet pour trouver un site de conversion fiable. Cet outil vous offre l'opportunité de <b>télécharger en quelques clics une vidéo et son contenu audio à partir de son lien</b>.</br></br>Le présent document a pour objectif de vous donner des informations complémentaires sur l'outil (le « service » ou le « programme ») et vous décrire vos droits vis-à-vis dudit service. En exploitant le service, vous affirmez tacitement consentir aux termes de cet accord. Si vous n'y consentez pas, vous êtes prié de ne pas le télécharger ni l'utiliser.</h2>
+        
+        <h2 class="title-format no-border-container">Informations sur l'outil et crédits :</h2>
+        <h2 class="text-format border-container"><b>1.1 -</b> Le service est régi en France métropolitaine.</br></br><b>1.2 -</b> Le service utilise des modules externes provenant de Git-Hub dont TkInter, YouTube DL, PyTube, PyDub et PyGame, qui appartiennent à leurs propriétaires respectifs.</br></br><b>1.3 -</b> Le service utilise des polices d'écriture spécifiques, dont "Nexa" et "A Big Deal", qui appartiennent à leurs propriétaires respectifs et sont issues du site Web "<a href="https://fonts.google.com" style="color: #FFFFFF" target="_blank">Google Fonts</a>".</br></br><b>1.4 -</b> Le service vous est fourni gratuitement et ne génère aucun bénéfice.</br></h2>
+        
+        <h2 class="title-format no-border-container">Conditions d'utilisation de l'outil :</h2>
+        <h2 class="text-format border-container"><b>2.1 -</b> L'acceptation des présentes conditions d'utilisation de l'outil constitue un accord entre son propriétaire et vous.</br></br><b>2.2 -</b> En téléchargeant le programme, vous êtes libre de lui apporter des changements, de modifier son code source pour un usage personnel uniquement. En tant que propriétaire du service, je déclare n'être en aucun cas affilié, associé ou engagé dans toute utilisation que vous faites du service.</br></br><b>2.3 -</b> Vous n'avez pas l'autorisation de partager le service en prétendant en être le propriétaire. Dans cette optique, vous n'êtes pas autorisé à le vendre, le copier, l'adapter, le traduire, en dériver le code-source ou bien en faire la promotion. Il vous est également interdit de faire de même avec les images, les icônes, les textes, les programmes ou tout autre contenu du service appartenant à son propriétaire.</h2>
+
+        <h2 class="title-format no-border-container">Informations additionnelles :</h2>
+        <h2 class="text-format no-border-container"><b>•</b> L'utilisation du service nécessite une connexion à Internet.</br></br><b>•</b> Le service est au format exécutable (.exe) et peut demander des droits d'élévation sur votre appareil : l'exécution du programme pourrait être empêchée par un logiciel anti-malware en raison de sa provenance inconnue ; étant conçu par un créateur indépendant, le programme n'est pas reconnu par les systèmes d'exploitation - il ne constitue toutefois aucune menace pour votre appareil.</br></br><b>•</b> Pour télécharger une vidéo YouTube au format MP3, vous devez posséder le module FFMPEG dans les variables d'environnement de votre système.</br></br><b>•</b> Si vous rencontrez un problème, avez besoin d'assistance ou souhaitez me poser une question sur le service, vous pouvez m'envoyer un message sur Discord - mon nom d'utilisateur est : "screan_".</br></br><b>•</b> Si vous avez des suggestions à proposer pour améliorer l'outil, n'hésitez pas à m'en faire part.</h2>
+    </section>
+
+    <section class="discord-pop-up">
+        <div class="discord-pop-up-content">
+            <h2 class="pop-up-title">Ajoutez-moi sur Discord !</h2>
+            <div class="pop-up-objects">
+                <h3 class="pop-up-standard-text">Si vous avez besoin d'assistance, souhaitez me faire part d'une proposition ou simplement me passer le bonjour, vous pouvez m'ajouter sur Discord avec mon nom d'utilisateur : @screan_</br></br></h3>
+                <img id="discord-popup-profile" src="resources/discord_popup_screan_profile_img.png">
+                <h4 class="pop-up-small-text"><a href="https://discord.com/channels/@me" style="color: #E5E5E5" target="_blank">Accéder à Discord</a></br></br></h4>
+            </div>
+        </div>
+    </section>
+
+    <section class="discord-pop-up">
+        <div class="discord-pop-up-content">
+            <h2 class="pop-up-title">Comment installer FFmpeg ?</h2>
+            <div class="pop-up-objects">
+                <h3 class="pop-up-standard-text">Si vous avez besoin d'assistance, souhaitez me faire part d'une proposition ou simplement me passer le bonjour, vous pouvez m'ajouter sur Discord avec mon nom d'utilisateur : @screan_</br></br></h3>
+                <img id="discord-popup-profile" src="resources/discord_popup_screan_profile_img.png">
+                <h4 class="pop-up-small-text"><a href="https://discord.com/channels/@me" style="color: #E5E5E5" target="_blank">Accéder à Discord</a></br></br></h4>
+            </div>
+        </div>
+    </section>
+
+
+    <h4 class="pop-up-close-info">Cliquez en dehors de cette fenêtre pop-up pour la réduire.</h4>
+    <script src="app.js"></script>
+</body>
+</html>
